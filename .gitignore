@@ -1,0 +1,18 @@
+# 数据文件不进git
+data/raw/*
+!data/raw/.gitkeep
+
+# 常见数据格式
+*.parquet
+*.tsv
+*.tsv.zip
+*.csv.zip
+
+# Python缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
